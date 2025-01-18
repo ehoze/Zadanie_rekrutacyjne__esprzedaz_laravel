@@ -1,3 +1,61 @@
+# Pets Management Application
+
+Aplikacja do zarządzania bazą danych zwierząt (za pomocą API) stworzona w ramach zadania rekrutacyjnego.
+
+## Funkcjonalności
+
+- Zarządzanie zwierzętami (CRUD)
+- Responsywny interfejs
+
+## Technologie
+
+- Laravel 10
+- MySQL
+- Tailwind CSS
+- Blade Templates
+
+## Instalacja
+
+1. Sklonuj repozytorium
+```bash
+git clone https://github.com/twoja-nazwa/pets-management-laravel.git
+```
+
+2. Zainstaluj zależności
+```bash
+composer install
+npm install
+```
+
+3. Skopiuj plik .env.example do .env i skonfiguruj połączenie z bazą danych
+```bash
+cp .env.example .env
+```
+
+4. Wygeneruj klucz aplikacji
+```bash
+php artisan key:generate
+```
+
+5. Uruchom migracje
+```bash
+php artisan migrate
+```
+
+6. Uruchom serwer
+```bash
+php artisan serve
+npm run dev
+```
+
+## Autor
+
+[Eryk Kucharski] (https://github.com/ehoze)
+
+
+
+## Informacje o frameworku Laravel
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
