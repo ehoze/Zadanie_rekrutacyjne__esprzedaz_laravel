@@ -18,7 +18,7 @@ Aplikacja do zarządzania bazą danych zwierząt (za pomocą API) stworzona w ra
 
 1. Sklonuj repozytorium
 ```bash
-git clone https://github.com/twoja-nazwa/pets-management-laravel.git
+git clone https://github.com/ehoze/Zadanie_rekrutacyjne__esprzedaz_laravel.git
 ```
 
 2. Zainstaluj zależności
